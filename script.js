@@ -14,9 +14,9 @@ const ctx = game.getContext('2d');
 const gridctx = game.getContext('2d');
 
 const colorList = [
-    "#FFEBEE", "#FCE4EC", "#F3E5F5", "#B39DDB", "#9FA8DA", "#90CAF9", "#81D4FA", "#80DEEA", 
+    "#FFEBEE", "#FCE4EC", "#F3E5F5", "#B39DDB", "#9FA8DA", "#90CAF9", "#001eff", "#80DEEA", 
     "#4DB6AC", "#66BB6A", "#9CCC65", "#CDDC39", "#FFEB3B", "#FFC107", "#FFEBEE", "#FF5722", 
-    "#A1887F", "#E0E0E0", "#90A4AE", "#000"
+    "#A1887F", "#E0E0E0", "#90A4AE", "#000", "#ff0000", "#FFFFFF"
 ]
 
 let currentColorChoice = colorList[9]
