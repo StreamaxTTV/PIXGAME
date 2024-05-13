@@ -22,13 +22,13 @@ const colorList = [
 let currentColorChoice = colorList[9]
 
 const firebaseConfig = {
-    apiKey: "AIzaSyBiTXpWF7xc9dg6Xxja1mwC2xWtM4IOlbA",
-    authDomain: "pixelwar-8e2ea.firebaseapp.com",
-    projectId: "pixelwar-8e2ea",
-    storageBucket: "pixelwar-8e2ea.appspot.com",
-    messagingSenderId: "899080915566",
-    appId: "1:899080915566:web:a2d819037272d388bc347f"
-  };
+  apiKey: "AIzaSyBiTXpWF7xc9dg6Xxja1mwC2xWtM4IOlbA",
+  authDomain: "pixelwar-8e2ea.firebaseapp.com",
+  projectId: "pixelwar-8e2ea",
+  storageBucket: "pixelwar-8e2ea.appspot.com",
+  messagingSenderId: "899080915566",
+  appId: "1:899080915566:web:0b167571ea61dd11bc347f"
+};
 
 firebase.initializeApp(firebaseConfig);
 const db = firebase.firestore()
